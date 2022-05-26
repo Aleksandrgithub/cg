@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <Title>Tetris</Title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+        <audio id="clearsound" src="sound/clear.wav" preload="auto"></audio>
+        <audio id="lvlup" src="sound/success.wav" preload="auto"></audio>
+        <audio id="gameover" src="sound/gameover.wav" preload="auto"></audio>
+        <div class="wrapper">
+            <div>
+                <canvas id="tetris" width="200" height="400"></canvas>
+            </div>
+            <div class="info">
+                <div id="score"></div>
+                <div id="level"></div>
+                <div id="linesLeft"></div>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
